@@ -94,7 +94,7 @@ fig.update_yaxes(
 
 # 2 Fazer o gráfico de pizza no df_análise_segmentos com a mesma biblioteca Potly;
 
-fig = px.pie(df_analise_saldo, values='Variacao_rs', names='Resultado', title='Variação Reais por Resultado')
+fig = px.pie(df_analise_segmento, values='Variacao_rs', names='Segmento', title='Variação Reais por Resultado')
 fig.show()
 
 # 3 Fazer o GroupBy da categoria de idades e gerar o gráfico de barras.
